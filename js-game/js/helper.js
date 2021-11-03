@@ -10,13 +10,13 @@ let getDistance = (e, target) => {
 
 let getDistanceHint = distance => {
     if (distance < 50) {
-        return "Uff.. como Quema!";
+        return "Fuego! Fuego!";
     } else if (distance < 70) {
-        return "Hay olor a Quemado...";
+        return "Algo se Quema...";
     } else if (distance < 120) {
-        return "Es idea mia o se está poniendo más Caluroso?";
+        return "Se está poniendo más Caluroso?";
     } else if (distance < 200) {
-        return "Ambiente Cálido y agradable";
+        return "Ambiente Cálido";
     } else if (distance < 300) {
         return "Frío, pero podría ser peor";
     } else if (distance < 500) {
