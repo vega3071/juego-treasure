@@ -1,0 +1,28 @@
+body {
+    background-color: #34495e;
+    color: #fff;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*
+img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}*/
+
+img {
+    width: 800px;
+    height: 800px;
+}
+
+p {
+    display: block;
+}
