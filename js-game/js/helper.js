@@ -17,11 +17,11 @@ let getDistanceHint = distance => {
         return "Se está poniendo más Caluroso?";
     } else if (distance < 200) {
         return "Ambiente Cálido";
-    } else if (distance < 300) {
+    } else if (distance < 350) {
         return "Frío, pero podría ser peor";
-    } else if (distance < 500) {
+    } else if (distance < 600) {
         return "Súper Frío, debí traer calzoncillos largos";
-    } else if (distance <800) {
+    } else if (distance <850) {
         return "Congelado hasta los mocos!";
     }
 }
