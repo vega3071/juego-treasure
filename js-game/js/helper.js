@@ -21,7 +21,7 @@ let getDistanceHint = distance => {
         return "Fresquito por la mañana.";
     } else if (distance < 500) {
         return "Debí traer calzoncillos largos.";
-    } else if (distance < 900) {
+    } else if (distance < 1000) {
         return "Congelado hasta los mocos!!";
     }
 }
