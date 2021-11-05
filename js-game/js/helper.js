@@ -11,15 +11,15 @@ let getDistance = (e, target) => {
 let getDistanceHint = distance => {
     if (distance < 50) {
         return "Fuego! Fuego!";
-    } else if (distance < 70) {
+    } else if (distance < 90) {
         return "Algo se Quema...?";
-    } else if (distance < 110) {
+    } else if (distance < 160) {
         return "Suben las temperaturas, Playa!";
-    } else if (distance < 190) {
+    } else if (distance < 250) {
         return "Templado... ni fú, ni fá.";
-    } else if (distance < 350) {
+    } else if (distance < 360) {
         return "Fresquito por la mañana.";
-    } else if (distance < 600) {
+    } else if (distance < 560) {
         return "Debí traer calzoncillos largos.";
     } else if (distance < 1000) {
         return "Congelado hasta los mocos!!";
