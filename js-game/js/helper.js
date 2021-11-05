@@ -20,7 +20,7 @@ let getDistanceHint = distance => {
     } else if (distance < 300) {
         return "Frío, pero podría ser peor";
     } else if (distance < 500) {
-        return "Muy Frío, debí traer calzoncillos largos";
+        return "Súper Frío, debí traer calzoncillos largos";
     } else if (distance <800) {
         return "Congelado hasta los mocos!";
     }
